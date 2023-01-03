@@ -1,9 +1,10 @@
+import {Link} from "react-router-dom"
 export default function StartQuiz() {
   return (
     <div>
       <h1>Quizzical</h1>
       <p>Some description if needed</p>
-      <button>Sart quiz</button>
+      <Link to="home"><button>Start quiz</button></Link>
     </div>
   );
 }
